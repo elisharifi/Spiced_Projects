@@ -1,2 +1,2 @@
 # Spiced_Projects
-In this repository, I put all of my projects that I do at the Spiced Academy.
+This repository includes all of the projects that I did at the Spiced Academy from 07.2022 to 10.2022.
