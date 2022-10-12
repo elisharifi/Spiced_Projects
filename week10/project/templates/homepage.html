@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What movie should I watch?</title>
+    <link rel="stylesheet" href="static/css/main.css">
+</head>
+<body>
+    <body></body>
+    <body bgcolor="#D9E1F0"></body>
+    <h1 id="h1_main"> {{ title }} </h1>
+    <p style="text-align:center">If you're in the mood for a movie and looking for a good one, you are in a right place.</p>
+    <center><img src="{{ url_for('static', filename='/images/cinema.jpg')}}" width="400" height="200"></center>
+    <form action = "/recs">
+        <p>To get a list of recommendations based on your taste, please rate some of the following movies and let me know how many movies do you want me to recommend:</p>
+        Shawshank Redemption, The (1994):
+        <input type = "text" name = "Shawshank Redemption, The (1994)" placeholder = "0 - 5"><br>
+        Sunset Blvd. (a.k.a. Sunset Boulevard) (1950):
+        <input type = "text" name = "Sunset Blvd. (a.k.a. Sunset Boulevard) (1950)" placeholder = "0 - 5"><br>
+        Philadelphia Story, The (1940):
+        <input type = "text" name = "Philadelphia Story, The (1940)" placeholder = "0 - 5"><br>
+        How many movies do you want me to recommend:
+        <input type = "text" name = "How many movies do you want me to recommend" placeholder = "1 - 50"><br>
+        <input type = "submit">
+    </form>
+    <div class="container">
+        <div class="column">
+        <img id="side"src="https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg" height="400" width="200" alt="image1">
+        </div>
+        <div class="column">
+        <img id="side"src="https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg" height="400" width="200" alt="image2">
+        </div>
+        <div class="column">
+        <img id="side"src="https://m.media-amazon.com/images/I/513TT8BMNFL.jpg" height="400" width="200" alt="image3">
+        </div>
+    </div>
+</body>
+</html>
+

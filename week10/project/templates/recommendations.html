@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What movie should I watch?</title>
+</head>
+<body>
+    <body bgcolor="090D1F"></body>
+    <h1 style="text-align:center; color:#FFFAFA;">I bet you'll enjoy watching each one of these movies!</h1>
+    <p style= color:#FFFAFA;>Showing the highest rated movies based on your taste:</p>
+    <ul style= color:#FFFAFA;>
+        {% for i in range(len) %}
+        <li> {{ movies[i] }} </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

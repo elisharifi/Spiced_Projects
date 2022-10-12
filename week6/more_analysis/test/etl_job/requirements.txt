@@ -1,0 +1,8 @@
+pymongo
+sqlalchemy
+psycopg2-binary
+pandas
+vaderSentiment
+sklearn.feature_extraction.text
+re
+time

@@ -1,0 +1,19 @@
+#h1_main {
+	font-size: 3rem;
+	color:#FFFAFA;
+	font-family:cursive;
+	text-align:center;
+	background-image:url("https://i.pinimg.com/originals/a2/a6/6b/a2a66b1b23b23791e5d73a00b9325d04.gif");
+	
+}
+
+.column {
+	  flex: 30%;
+	  padding: 5px;
+	}
+#side {
+	  width: 100%;
+	}
+.container {
+	   display: flex;
+	}
